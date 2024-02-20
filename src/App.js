@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import CR from "./CR.js";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
         <span>{count}</span>
         <button onClick={increment}>+</button>
       </div>
+      <CR count = {count}></CR>
     </div>
   );
 }
