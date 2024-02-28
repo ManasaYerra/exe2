@@ -4,8 +4,9 @@
 }
 .App {
   text-align: center;
-  color: purple;
-  background-color: plum;
+  /* color: purple; */
+  /* background-color: plum; */
+  
 }
 
 .counter {
@@ -26,4 +27,22 @@
 .read{
   background-color: purple;
   color: white;
+}
+#content{
+  color: peru;
+  background-image: url(./assets/images/Virat-Kohli.webp);
+  background-color: grey;
+  font-size: 26px;
+}
+h1{
+  color: chocolate;
+  font-size: 60px;
+  background-color: rgba(39, 39, 126, 0.503);
+  
+}
+#footer{
+  color: peru;
+  font-size: 49px;
+  background-color: rgba(39, 39, 126, 0.503);
+  
 }
